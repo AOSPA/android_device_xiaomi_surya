@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16c682c2_28d607fb",
+        "filename": "init/init.surya.perf.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-06-30T00:44:57Z",
+      "side": 1,
+      "message": "reserving two cores seems excessive, reserving one may not even be necessary.  0-7 has generally been optimal there for me.",
+      "revId": "e76bc3a71453328f7b35a6a88cd4e465b9265b19",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
