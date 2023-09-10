@@ -522,6 +522,7 @@ vendor/lib64/libcpion.so|542fd1114d09ec5c0d6d8e44ed925a0ee226ce94
 vendor/lib64/libdrmfs.so|2e000862d1dba971796ba1223352af519ab86229
 vendor/lib64/libdrmtime.so|d7460a3d0d0a9ccc044688f960ca4b9c3c05cfd5
 vendor/lib64/libminkdescriptor.so|3fb52e7d3c9c213df62881a7068baab82cbbd78e
+vendor/lib64/libminksocket.so|75163021563b6bd6b3722ab5f11d8d82aa543b3a
 vendor/lib64/liboemcrypto.so|457e298d46454bed76defd96eaedb047b6b50d74
 vendor/lib64/libops.so|a6556e34f327dab506012db83169b5c53e7f1b0a
 vendor/lib64/libpvr.so|4ec5f223df1e2849dbe67687e293653406b6939e
