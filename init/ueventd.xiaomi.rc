@@ -5,5 +5,6 @@
 # Lineage Health
 /sys/class/power_supply/battery/input_suspend  0660   system     system
 
+
 # wlan
 /dev/spidev0.1            0660   system	    system
