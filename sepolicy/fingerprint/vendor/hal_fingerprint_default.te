@@ -28,6 +28,8 @@ allow hal_fingerprint_default {
 }: file rw_file_perms;
 
 allow hal_fingerprint_default vendor_hal_perf_hwservice:hwservice_manager find;
+allow hal_fingerprint_default vendor_sysfs_battery_supply:dir { search };
+allow hal_fingerprint_default vendor_sysfs_battery_supply:file { open read };
 
 binder_call(hal_fingerprint_default, vendor_hal_perf_default)
 
