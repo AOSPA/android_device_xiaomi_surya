@@ -307,6 +307,7 @@ PRODUCT_PACKAGES += \
     AOSPASuryaFrameworksOverlay \
     AOSPASuryaSystemUIOverlay \
     AvoidAppsInCutoutOverlay \
+    DeviceAsWebcamOverlay \
     KarnaFrameworksOverlay \
     NotchBarKillerOverlay \
     SuryaCarrierConfigOverlay \
