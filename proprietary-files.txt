@@ -550,7 +550,6 @@ vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
 vendor/lib64/librmp.so|3c40d44ec285ac1cbb86721849aa45f623c735e7
 vendor/lib64/librpmb.so|c3d14679c2630e5488a9d247c11ce24f147f9ad3
 vendor/lib64/libsecureui.so|e94e17e960e1efaa6571a0e5df879bfde84bcb8f
-vendor/lib64/libsecureui_svcsock.so|6af612f057f4f28720d6db9b300b58c883da6539
 vendor/lib64/libsi.so|77faf2818d08764f1c408f2ba26bfdbb5a0e8afb
 vendor/lib64/libssd.so|071e356c537195fc1fab8c725e3e70850711dff9
 vendor/lib64/libtrustedapploader.so|e9ebd0130381cf60219d4c511a8e6908684cb7ab
