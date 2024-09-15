@@ -61,6 +61,10 @@ function blob_fixup() {
         vendor/lib/android.hardware.camera.provider@2.4-legacy.so | vendor/lib64/android.hardware.camera.provider@2.4-legacy.so)
             grep -q "libcamera_provider_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcamera_provider_shim.so" "${2}"
             ;;
+        vendor/bin/batterysecret | vendor/bin/vppservice | vendor/lib/hw/*.so | vendor/lib/*.so | vendor/lib64/hw/*.so | vendor/lib64/*.so | vendor/lib64/nfc_nci.nqx.default.hw.so)
+            "${PATCHELF}" --remove-needed libhwbinder.so "${2}"
+            "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
+            ;;
     esac
 }
 
